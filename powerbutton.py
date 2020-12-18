@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
-# Start using non-sudo "crontab -e":
-#	"@reboot python3 /home/pi/powerbutton/powerbutton.py"
+# Run upon boot using non-sudo "crontab -e":
+#	@reboot python3 /home/pi/raspiPowerbutton/powerbutton.py
 
 # Uses lowermost two pins (near Ethernet port) on RasPi 3B header
 # 	Bottom left = Pin 39 = GND
